@@ -30,3 +30,13 @@ The localhost scan completed successfully. All 1000 scanned TCP ports were close
 
 ## Disclaimer
 This project was performed on my own local system for educational purposes.
+## Service Detection Scan
+Command used:
+`nmap -sV 127.0.0.1 -oN scan2.txt`
+
+Result:
+- Host: localhost (127.0.0.1)
+- Scanned ports: 1000 TCP ports
+- Open ports: 0
+- Closed ports: 1000
+- Services identified: None
